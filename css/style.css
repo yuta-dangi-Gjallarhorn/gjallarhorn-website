@@ -368,7 +368,6 @@ p {
   font-weight: var(--font-weight-bold);
   color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.3em;
-  text-transform: uppercase;
   margin-top: var(--spacing-lg);
   padding-top: var(--spacing-md);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
