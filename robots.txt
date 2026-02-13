@@ -4,5 +4,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap (GitHub Pages公開後にURLを更新してください)
-# Sitemap: https://your-username.github.io/gjallarhorn-website/sitemap.xml
+Sitemap: https://gjallarhorn.jp/sitemap.xml

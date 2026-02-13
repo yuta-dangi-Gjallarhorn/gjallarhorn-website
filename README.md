@@ -2,6 +2,8 @@
 
 株式会社Gjallarhornのコーポレートサイトです。
 
+**URL**: https://gjallarhorn.jp
+
 ## 構成
 
 ```
@@ -9,6 +11,8 @@ gjallarhorn-website/
 ├── index.html          # トップページ
 ├── 404.html            # エラーページ
 ├── robots.txt          # 検索エンジン設定
+├── sitemap.xml         # サイトマップ
+├── CNAME               # カスタムドメイン設定
 ├── pages/
 │   ├── about.html      # 会社概要
 │   ├── services.html   # 事業内容
@@ -30,7 +34,8 @@ gjallarhorn-website/
 - HTML5 / CSS3 / JavaScript（フレームワーク不使用）
 - Google Fonts（Inter, Noto Sans JP）
 - レスポンシブ対応
-- GitHub Pages対応
+- GitHub Pages + カスタムドメイン（gjallarhorn.jp）
+- HTTPS（GitHub Pages自動SSL証明書）
 
 ## 機能
 
@@ -40,18 +45,12 @@ gjallarhorn-website/
 - 幾何学模様のヒーロー背景（CSS生成）
 - クリップボードコピーボタン（メールアドレス・住所）
 
-## ローカルでの確認方法
+## ホスティング
 
-1. `index.html` をブラウザで開く
-2. または VSCode の Live Server 拡張機能を使用
-
-## GitHub Pagesでの公開
-
-1. GitHubにリポジトリを作成
-2. コードをpush
-3. Settings > Pages を開く
-4. Source で `main` ブランチを選択
-5. 保存すると自動的に公開される
+- **ホスティング**: GitHub Pages
+- **カスタムドメイン**: gjallarhorn.jp
+- **DNS**: お名前.com
+- **SSL**: GitHub Pages自動発行（Let's Encrypt）
 
 ## お知らせの追加方法
 
