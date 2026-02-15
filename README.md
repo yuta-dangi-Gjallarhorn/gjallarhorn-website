@@ -4,6 +4,8 @@
 
 **URL**: https://gjallarhorn.jp
 
+> **インフラ・DNS・運用情報**（ホスティング、ドメイン設定、SEO等）は [Notion 構成・運用ガイド](https://www.notion.so/3064fafd667380db822dd9f446a44e09) を参照してください。
+
 ## 構成
 
 ```
@@ -44,13 +46,6 @@ gjallarhorn-website/
 - スクロールアニメーション（Intersection Observer）
 - 幾何学模様のヒーロー背景（CSS生成）
 - クリップボードコピーボタン（メールアドレス・住所）
-
-## ホスティング
-
-- **ホスティング**: GitHub Pages
-- **カスタムドメイン**: gjallarhorn.jp
-- **DNS**: お名前.com
-- **SSL**: GitHub Pages自動発行（Let's Encrypt）
 
 ## お知らせの追加方法
 
