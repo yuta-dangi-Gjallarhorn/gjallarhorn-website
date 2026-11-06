@@ -1188,3 +1188,12 @@ a.partner-card {
   color: var(--color-gray);
   margin-bottom: var(--spacing-xs);
 }
+
+/* トップのパートナーの欄：すぐ下のお問い合わせと同じ白い背景なので、間が空きすぎないように詰める */
+.section--partner {
+  padding-bottom: 0;
+}
+
+.section--partner + .section {
+  padding-top: calc(var(--spacing-xl) / 2);
+}
